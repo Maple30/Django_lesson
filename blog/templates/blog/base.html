@@ -1,0 +1,21 @@
+{% load bootstrap4 %}
+{% bootstrap_css %}
+{% bootstrap_javascript jquery=True %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>逢甲上課提醒系統</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="container">
+            <P class="mx-auto">這是自動提醒系統的拉</P>
+            {% block con %}
+            {% endblock %}
+    </div>
+</body>
+</html>
